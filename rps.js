@@ -29,19 +29,19 @@ paper.addEventListener('click', function(){
 
 function compare(userChoice, compChoice, compChoiceName) {
 	if (userChoice === compChoice) {
-		document.getElementById("compPickAnnounce").innerHTML='TIE! computer choice was ' + compChoiceName;
+		document.getElementById("compPickAnnounce").innerHTML='TIE! Computer chose ' + compChoiceName;
 	}
 	else if (compChoice === 3 && userChoice === 1 ||
 		     compChoice === 2 && userChoice === 3 ||
 		     compChoice === 1 && userChoice === 2) {
-		document.getElementById('compPickAnnounce').innerHTML='YOU LOSE! Computer choice was ' + compChoiceName;
+		document.getElementById('compPickAnnounce').innerHTML='YOU LOSE! Computer chose ' + compChoiceName;
 	  losses++;
 	  document.getElementById('losses').innerHTML = 'Losses:  '+losses;
 	}
 	else if (userChoice === 3 && compChoice === 1 ||
 		     userChoice === 2 && compChoice === 3 ||
 		     userChoice === 1 && compChoice === 2) {
-		document.getElementById('compPickAnnounce').innerHTML='YOU WIN! Computer choice was ' + compChoiceName;
+		document.getElementById('compPickAnnounce').innerHTML='YOU WIN! Computer chose ' + compChoiceName;
 	  wins++;
 	  document.getElementById('wins').innerHTML = 'Wins:  '+wins;
 	}
