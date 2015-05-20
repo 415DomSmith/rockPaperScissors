@@ -106,3 +106,8 @@ function showPaper(){
     thePick.style.transition = "all 1s ease";
     document.getElementById('computerPick').appendChild(thePick);
 }
+
+var reset = document.getElementById("resetButton");
+reset.addEventListener("click", function(){
+		window.location.reload();
+	});
