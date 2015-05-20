@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+* {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#banner {
+	text-align: right;
+}
+h1{
+	padding-right: 40px;
+	color: orange;
+}
+
+#score {
+	margin-left: 40px;
+	font-size: 20px
+}
+
+#choices {
+	width: 730px; 
+	height: 240px; 
+	margin: 10px auto -1px auto;	
+	bottom: 100px;
+	top: 100px;
+	background-color: rgb(185,185,185);
+	padding-left: auto;
+	padding-top:10px;
+	padding-right: auto;
+	padding-bottom:30px;
+	border-radius: 12px;
+}
+
+#computerPick {
+	width: 240px; 
+	height: 220px; 
+	margin: -180px auto -1px auto;	
+	background-color: rgb(185,185,185);
+	padding-left: auto;
+	padding-right: auto;
+	padding-bottom:30px;
+	border-radius: 12px;
+	text-align: center;
+	background-repeat: no-repeat;
+
+}
+
+#compPickAnnounce {
+	margin-left: 0px;
+	margin-top: -30px;
+	position: absolute;
+	text-align: center;
+	color: orange;
+}
+
+.pick {
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding-top: 20px;
+	border-radius: 15px;
+}
+
+
+
+}
+
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 8px rgba(0, 237, 255, 0.9);
+}
